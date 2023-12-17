@@ -1,0 +1,58 @@
+All classes in the package 'models': 
+models.Amazon
+models.Flipkart
+models.Meesho
+models.Myntra
+models.Nykaa
+
+Classes annotated with '@ClassDocumentation': 
+models.Amazon
+models.Myntra
+models.Nykaa
+
+Methods annotated with '@MethodDocumentation': 
+public int models.Flipkart.placeFlipkartOrder(java.lang.String)
+public int models.Myntra.getNumOfMyntraOrders()
+public void models.Nykaa.becomePrimeMember(int)
+public int models.Nykaa.placeNykaaOrder(java.lang.String)
+public int models.Amazon.getNumOfAmazonOrders()
+public void models.Myntra.searchWithCamera(java.lang.String)
+public int models.Flipkart.getNumOfFlipkartOrders()
+public int models.Nykaa.getNumOfNykaaOrders()
+public int models.Myntra.placeMyntraOrder(java.lang.String)
+public int models.Amazon.placeAmazonOrder(java.lang.String)
+
+Classes not annotated with '@ClassDocumentation' but have documentation: 
+
+Class: Flipkart
+JavaDoc: 
+ * This class is for Flipkart shopping app
+ 
+
+Class: Meesho
+JavaDoc: 
+ * This class is for Meesho Shopping App
+ 
+
+
+
+Classes annotated with '@ClassDocumentation' but have no javadoc: 
+models.Amazon
+models.Myntra
+models.Nykaa
+
+Methods not annotated with '@MethodDocumentation' but have javadoc: 
+{models.Flipkart.buyGroceries=
+@param groceries
+, models.Meesho.placeMeeshoOrder=This method places an order on the Meesho App
+
+@param orderName
+@return total orders
+, models.Meesho.getNumOfMeeshoOrders=This method returns the number of orders that Meesho app has received yet
+
+@return number of orders
+}
+
+Methods annotated with '@MethodDocumentation' but have no javadoc: 
+[models.Myntra.getNumOfMyntraOrders, models.Myntra.placeMyntraOrder, models.Nykaa.getNumOfNykaaOrders]
+
